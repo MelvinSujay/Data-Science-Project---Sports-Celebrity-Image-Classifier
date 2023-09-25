@@ -1,0 +1,5 @@
+one technique of image scrapping from the web 
+
+
+ Use a chrome extention called fatkun. You can download that from here:
+https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en
