@@ -1,0 +1,11 @@
+# Data-Science-Project---Sports-Celebrity-Image-Classifier
+In this project, an image classification system was developed using machine learning techniques to identify celebrities' faces from images. The process involved several key steps:
+1. Data Collection and Preprocessing: Images of various celebrities were collected and preprocessed to ensure uniformity and quality. OpenCV was used for image manipulation, including grayscale conversion and face and eye detection using Haar cascades.
+2. Feature Engineering: Wavelet transformation was applied to the images to extract important features. This step allowed the model to capture both raw and high-frequency image information, enhancing classification accuracy.
+3. Machine Learning Models: Different machine learning models were explored, including Support Vector Machines (SVM), Random Forest, and Logistic Regression. These models were trained on the preprocessed image data to classify celebrities.
+4. Hyperparameter Tuning: Grid search was employed to find the best hyperparameters for each model. This step improved the models' performance by optimizing their settings.
+5.Evaluation and Visualization The trained models were evaluated using metrics such as precision, recall, and F1-score. Confusion matrices and heatmaps were created to visualize the models' performance.
+6. Web Application: A web application was developed using HTML, CSS, and JavaScript, with a Flask server handling the backend. Users can upload images, and the trained model predicts the celebrity in the image.
+7. Model Serialization: The best-performing model (Logistic Regression) was serialized using Joblib and saved as a `.pkl` file, allowing for easy deployment and reuse.
+8. Website Integration: The machine learning model and class dictionary were integrated into the Flask web application, enabling real-time celebrity recognition from user-uploaded images.
+This project showcases the process of building an end-to-end machine learning application for celebrity face recognition, including data collection, preprocessing, model training, web development, and deployment. Users can interact with the system through a user-friendly web interface, making it accessible and practical for various applications, such as social media tagging and celebrity identification.
